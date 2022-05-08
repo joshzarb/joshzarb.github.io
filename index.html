@@ -1,7 +1,2235 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>7b78a38a46144579803e0d98e2b8ad08</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<div class="cell code" data-colab="{&quot;height&quot;:442,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="ki9u35CD9wpX" data-outputId="497aed60-f6fb-4fd5-ec6c-c95ed5a286f9">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sqlite3</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> datetime</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> drive</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>drive.mount(<span class="st">&#39;/content/drive&#39;</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">#IDEA WE HAD DURING CLASS: Use recommender systems to recommend users certain games based on their user reviews</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>games_file <span class="op">=</span> <span class="st">&quot;/content/drive/MyDrive/all_games.csv&quot;</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>games <span class="op">=</span> pd.read_csv(games_file)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>display(games)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount(&quot;/content/drive&quot;, force_remount=True).
+</code></pre>
+</div>
+<div class="output display_data">
+
+  <div id="df-aa9c1107-9079-4859-8d10-9a83879648d0">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>name</th>
+      <th>platform</th>
+      <th>release_date</th>
+      <th>summary</th>
+      <th>meta_score</th>
+      <th>user_review</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>The Legend of Zelda: Ocarina of Time</td>
+      <td>Nintendo 64</td>
+      <td>November 23, 1998</td>
+      <td>As a young boy, Link is tricked by Ganondorf, ...</td>
+      <td>99</td>
+      <td>9.1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Tony Hawk's Pro Skater 2</td>
+      <td>PlayStation</td>
+      <td>September 20, 2000</td>
+      <td>As most major publishers' development efforts ...</td>
+      <td>98</td>
+      <td>7.4</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Grand Theft Auto IV</td>
+      <td>PlayStation 3</td>
+      <td>April 29, 2008</td>
+      <td>[Metacritic's 2008 PS3 Game of the Year; Also ...</td>
+      <td>98</td>
+      <td>7.7</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>SoulCalibur</td>
+      <td>Dreamcast</td>
+      <td>September 8, 1999</td>
+      <td>This is a tale of souls and swords, transcendi...</td>
+      <td>98</td>
+      <td>8.4</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Grand Theft Auto IV</td>
+      <td>Xbox 360</td>
+      <td>April 29, 2008</td>
+      <td>[Metacritic's 2008 Xbox 360 Game of the Year; ...</td>
+      <td>98</td>
+      <td>7.9</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>18795</th>
+      <td>Fast &amp; Furious: Showdown</td>
+      <td>Xbox 360</td>
+      <td>May 21, 2013</td>
+      <td>Fast &amp; Furious: Showdown takes some of the fra...</td>
+      <td>22</td>
+      <td>1.3</td>
+    </tr>
+    <tr>
+      <th>18796</th>
+      <td>Drake of the 99 Dragons</td>
+      <td>Xbox</td>
+      <td>November 3, 2003</td>
+      <td>Drake is out for revenge in a supernatural Hon...</td>
+      <td>22</td>
+      <td>1.7</td>
+    </tr>
+    <tr>
+      <th>18797</th>
+      <td>Afro Samurai 2: Revenge of Kuma Volume One</td>
+      <td>PlayStation 4</td>
+      <td>September 22, 2015</td>
+      <td>Head out on a journey of redemption, driven by...</td>
+      <td>21</td>
+      <td>2.9</td>
+    </tr>
+    <tr>
+      <th>18798</th>
+      <td>Infestation: Survivor Stories (The War Z)</td>
+      <td>PC</td>
+      <td>October 15, 2012</td>
+      <td>(Formerly known as "The War Z") It has been 5 ...</td>
+      <td>20</td>
+      <td>1.7</td>
+    </tr>
+    <tr>
+      <th>18799</th>
+      <td>Leisure Suit Larry: Box Office Bust</td>
+      <td>PC</td>
+      <td>March 31, 2009</td>
+      <td>The Leisure Suit Larry: Box Office Bust video ...</td>
+      <td>20</td>
+      <td>2.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>18800 rows × 6 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-aa9c1107-9079-4859-8d10-9a83879648d0')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-aa9c1107-9079-4859-8d10-9a83879648d0 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-aa9c1107-9079-4859-8d10-9a83879648d0');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="We_1r3u_whHc">
+<p>Next, we can perform some operations on our dataset to tidy it up and make it easier to work with.</p>
+</div>
+<div class="cell code" data-colab="{&quot;height&quot;:424,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="sVJNqbbZwvLd" data-outputId="766f6c1c-4d22-4157-ae9d-b017f70a14e3">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Some games have a user review of &quot;tbd&quot;. Let&#39;s change that to NaN.</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Also, critic reviews are integers from 0-100, while user reviews are floats scaled from 0-10. Let&#39;s scale user reviews so they&#39;re out of 0-100.</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>games[<span class="st">&quot;user_review&quot;</span>] <span class="op">=</span> games[<span class="st">&quot;user_review&quot;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: np.nan <span class="cf">if</span> x <span class="op">==</span> <span class="st">&quot;tbd&quot;</span> <span class="cf">else</span> (<span class="bu">int</span>)(<span class="bu">float</span>(x) <span class="op">*</span> <span class="dv">10</span>))</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># For some reason, every entry in the platform column has a whitespace character at the start. We can strip this whitespace.</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>games[<span class="st">&quot;platform&quot;</span>] <span class="op">=</span> games[<span class="st">&quot;platform&quot;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x.strip())</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Each entry in the release_date column is of type string, instead of datetime. Let&#39;s change it to type datetime, so it&#39;s easier to work with.</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>games[<span class="st">&quot;release_date&quot;</span>] <span class="op">=</span> games[<span class="st">&quot;release_date&quot;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: datetime.datetime.strptime(x, <span class="st">&quot;%B </span><span class="sc">%d</span><span class="st">, %Y&quot;</span>))</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="co"># And while we&#39;re at it, let&#39;s drop games that don&#39;t currently have a user review.</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>games.dropna(subset <span class="op">=</span> [<span class="st">&quot;user_review&quot;</span>], inplace <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>games.reset_index(inplace <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>display(games)</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-cc82483d-fde8-4725-9b95-7f4bded0315a">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>index</th>
+      <th>name</th>
+      <th>platform</th>
+      <th>release_date</th>
+      <th>summary</th>
+      <th>meta_score</th>
+      <th>user_review</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>The Legend of Zelda: Ocarina of Time</td>
+      <td>Nintendo 64</td>
+      <td>1998-11-23</td>
+      <td>As a young boy, Link is tricked by Ganondorf, ...</td>
+      <td>99</td>
+      <td>91.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>Tony Hawk's Pro Skater 2</td>
+      <td>PlayStation</td>
+      <td>2000-09-20</td>
+      <td>As most major publishers' development efforts ...</td>
+      <td>98</td>
+      <td>74.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2</td>
+      <td>Grand Theft Auto IV</td>
+      <td>PlayStation 3</td>
+      <td>2008-04-29</td>
+      <td>[Metacritic's 2008 PS3 Game of the Year; Also ...</td>
+      <td>98</td>
+      <td>77.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3</td>
+      <td>SoulCalibur</td>
+      <td>Dreamcast</td>
+      <td>1999-09-08</td>
+      <td>This is a tale of souls and swords, transcendi...</td>
+      <td>98</td>
+      <td>84.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4</td>
+      <td>Grand Theft Auto IV</td>
+      <td>Xbox 360</td>
+      <td>2008-04-29</td>
+      <td>[Metacritic's 2008 Xbox 360 Game of the Year; ...</td>
+      <td>98</td>
+      <td>79.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>17430</th>
+      <td>18795</td>
+      <td>Fast &amp; Furious: Showdown</td>
+      <td>Xbox 360</td>
+      <td>2013-05-21</td>
+      <td>Fast &amp; Furious: Showdown takes some of the fra...</td>
+      <td>22</td>
+      <td>13.0</td>
+    </tr>
+    <tr>
+      <th>17431</th>
+      <td>18796</td>
+      <td>Drake of the 99 Dragons</td>
+      <td>Xbox</td>
+      <td>2003-11-03</td>
+      <td>Drake is out for revenge in a supernatural Hon...</td>
+      <td>22</td>
+      <td>17.0</td>
+    </tr>
+    <tr>
+      <th>17432</th>
+      <td>18797</td>
+      <td>Afro Samurai 2: Revenge of Kuma Volume One</td>
+      <td>PlayStation 4</td>
+      <td>2015-09-22</td>
+      <td>Head out on a journey of redemption, driven by...</td>
+      <td>21</td>
+      <td>29.0</td>
+    </tr>
+    <tr>
+      <th>17433</th>
+      <td>18798</td>
+      <td>Infestation: Survivor Stories (The War Z)</td>
+      <td>PC</td>
+      <td>2012-10-15</td>
+      <td>(Formerly known as "The War Z") It has been 5 ...</td>
+      <td>20</td>
+      <td>17.0</td>
+    </tr>
+    <tr>
+      <th>17434</th>
+      <td>18799</td>
+      <td>Leisure Suit Larry: Box Office Bust</td>
+      <td>PC</td>
+      <td>2009-03-31</td>
+      <td>The Leisure Suit Larry: Box Office Bust video ...</td>
+      <td>20</td>
+      <td>20.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>17435 rows × 7 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-cc82483d-fde8-4725-9b95-7f4bded0315a')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-cc82483d-fde8-4725-9b95-7f4bded0315a button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-cc82483d-fde8-4725-9b95-7f4bded0315a');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="CtQmk8h7yOu7">
+<p>For the purposes of this project, we will divide each game into one of two categories: "old" or "new", depending on which console the game was released for. Old consoles are consoles that first released before 2002, and new consoles are consoles that first released after 2003.</p>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="qshEIa1ZyLll" data-outputId="ddb3c8cd-e0c9-444f-aadd-d7d3aa250764">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(games[<span class="st">&quot;platform&quot;</span>].drop_duplicates())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>0            Nintendo 64
+1            PlayStation
+2          PlayStation 3
+3              Dreamcast
+4               Xbox 360
+5                    Wii
+7               Xbox One
+10                    PC
+13                Switch
+14         PlayStation 2
+16         PlayStation 4
+18              GameCube
+21                  Xbox
+26                 Wii U
+53      Game Boy Advance
+79                   3DS
+120        Xbox Series X
+122                   DS
+141     PlayStation Vita
+157        PlayStation 5
+328                  PSP
+3879              Stadia
+Name: platform, dtype: object
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="yjmX6Km5zKm8">
+<p>This is a list of all consoles that have at least one game in our dataset. We can then divide this list into old and new consoles and create two dataframes, one for each category.</p>
+</div>
+<div class="cell code" data-colab="{&quot;height&quot;:927,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="-qxB8NWmyNf0" data-outputId="3cfa24cc-e76f-4a31-cb5b-e17a269918da">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>old_games_list <span class="op">=</span> [<span class="st">&quot;Nintendo 64&quot;</span>, <span class="st">&quot;PlayStation&quot;</span>, <span class="st">&quot;Dreamcast&quot;</span>, <span class="st">&quot;PlayStation 2&quot;</span>, <span class="st">&quot;GameCube&quot;</span>, <span class="st">&quot;Xbox&quot;</span>, <span class="st">&quot;Game Boy Advance&quot;</span>]</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>new_games_list <span class="op">=</span> [<span class="st">&quot;PlayStation 3&quot;</span>, <span class="st">&quot;Xbox 360&quot;</span>, <span class="st">&quot;Wii&quot;</span>, <span class="st">&quot;Xbox One&quot;</span>, <span class="st">&quot;Switch&quot;</span>, <span class="st">&quot;PlayStation 4&quot;</span>, <span class="st">&quot;Wii U&quot;</span>, <span class="st">&quot;3DS&quot;</span>, <span class="st">&quot;Xbox Series X&quot;</span>, <span class="st">&quot;DS&quot;</span>, <span class="st">&quot;PlayStation Vita&quot;</span>, <span class="st">&quot;PlayStation 5&quot;</span>, <span class="st">&quot;PSP&quot;</span>, <span class="st">&quot;Stadia&quot;</span>]</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>old_games <span class="op">=</span> pd.DataFrame()</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>new_games <span class="op">=</span> pd.DataFrame()</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> index, row <span class="kw">in</span> games.iterrows():</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> row[<span class="st">&quot;platform&quot;</span>] <span class="kw">in</span> new_games_list:</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    new_games <span class="op">=</span> new_games.append(row)</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="cf">elif</span> row[<span class="st">&quot;platform&quot;</span>] <span class="kw">in</span> old_games_list:</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    old_games <span class="op">=</span> old_games.append(row)</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>old_games <span class="op">=</span> old_games.reset_index()</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>new_games <span class="op">=</span> new_games.reset_index()</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>display(old_games)</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>display(new_games)</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-1bab60a0-c6d0-4abe-8572-6ed11dc9f356">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>level_0</th>
+      <th>index</th>
+      <th>name</th>
+      <th>platform</th>
+      <th>release_date</th>
+      <th>summary</th>
+      <th>meta_score</th>
+      <th>user_review</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>0.0</td>
+      <td>The Legend of Zelda: Ocarina of Time</td>
+      <td>Nintendo 64</td>
+      <td>1998-11-23</td>
+      <td>As a young boy, Link is tricked by Ganondorf, ...</td>
+      <td>99.0</td>
+      <td>91.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>1.0</td>
+      <td>Tony Hawk's Pro Skater 2</td>
+      <td>PlayStation</td>
+      <td>2000-09-20</td>
+      <td>As most major publishers' development efforts ...</td>
+      <td>98.0</td>
+      <td>74.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>3.0</td>
+      <td>SoulCalibur</td>
+      <td>Dreamcast</td>
+      <td>1999-09-08</td>
+      <td>This is a tale of souls and swords, transcendi...</td>
+      <td>98.0</td>
+      <td>84.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>12</td>
+      <td>12.0</td>
+      <td>Tony Hawk's Pro Skater 2</td>
+      <td>Dreamcast</td>
+      <td>2000-11-06</td>
+      <td>Hawk's back - with new technology, new pros an...</td>
+      <td>97.0</td>
+      <td>62.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>14</td>
+      <td>14.0</td>
+      <td>Tony Hawk's Pro Skater 3</td>
+      <td>PlayStation 2</td>
+      <td>2001-10-28</td>
+      <td>Challenge up to four friends in online competi...</td>
+      <td>97.0</td>
+      <td>75.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>3110</th>
+      <td>17420</td>
+      <td>18785.0</td>
+      <td>Gravity Games Bike: Street Vert Dirt</td>
+      <td>PlayStation 2</td>
+      <td>2002-06-27</td>
+      <td>Gravity Games Bike: Street. Vert. Dirt. delive...</td>
+      <td>24.0</td>
+      <td>34.0</td>
+    </tr>
+    <tr>
+      <th>3111</th>
+      <td>17423</td>
+      <td>18788.0</td>
+      <td>Legends of Wrestling II</td>
+      <td>Game Boy Advance</td>
+      <td>2002-11-25</td>
+      <td>Legends of Wrestling II takes you through the ...</td>
+      <td>24.0</td>
+      <td>36.0</td>
+    </tr>
+    <tr>
+      <th>3112</th>
+      <td>17424</td>
+      <td>18789.0</td>
+      <td>Pulse Racer</td>
+      <td>Xbox</td>
+      <td>2003-01-02</td>
+      <td>Pulse Racer takes you to a future where racers...</td>
+      <td>24.0</td>
+      <td>22.0</td>
+    </tr>
+    <tr>
+      <th>3113</th>
+      <td>17428</td>
+      <td>18793.0</td>
+      <td>Charlie's Angels</td>
+      <td>GameCube</td>
+      <td>2003-07-09</td>
+      <td>Join Natalie, Dylan, and Alex for an intense a...</td>
+      <td>23.0</td>
+      <td>43.0</td>
+    </tr>
+    <tr>
+      <th>3114</th>
+      <td>17431</td>
+      <td>18796.0</td>
+      <td>Drake of the 99 Dragons</td>
+      <td>Xbox</td>
+      <td>2003-11-03</td>
+      <td>Drake is out for revenge in a supernatural Hon...</td>
+      <td>22.0</td>
+      <td>17.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>3115 rows × 8 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-1bab60a0-c6d0-4abe-8572-6ed11dc9f356')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-1bab60a0-c6d0-4abe-8572-6ed11dc9f356 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-1bab60a0-c6d0-4abe-8572-6ed11dc9f356');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+<div class="output display_data">
+
+  <div id="df-dfe58f3e-6b1e-47e7-8da6-bd97fc16c6bf">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>level_0</th>
+      <th>index</th>
+      <th>name</th>
+      <th>platform</th>
+      <th>release_date</th>
+      <th>summary</th>
+      <th>meta_score</th>
+      <th>user_review</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2</td>
+      <td>2.0</td>
+      <td>Grand Theft Auto IV</td>
+      <td>PlayStation 3</td>
+      <td>2008-04-29</td>
+      <td>[Metacritic's 2008 PS3 Game of the Year; Also ...</td>
+      <td>98.0</td>
+      <td>77.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>4</td>
+      <td>4.0</td>
+      <td>Grand Theft Auto IV</td>
+      <td>Xbox 360</td>
+      <td>2008-04-29</td>
+      <td>[Metacritic's 2008 Xbox 360 Game of the Year; ...</td>
+      <td>98.0</td>
+      <td>79.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>5</td>
+      <td>5.0</td>
+      <td>Super Mario Galaxy</td>
+      <td>Wii</td>
+      <td>2007-11-12</td>
+      <td>[Metacritic's 2007 Wii Game of the Year] The u...</td>
+      <td>97.0</td>
+      <td>91.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>6</td>
+      <td>6.0</td>
+      <td>Super Mario Galaxy 2</td>
+      <td>Wii</td>
+      <td>2010-05-23</td>
+      <td>Super Mario Galaxy 2, the sequel to the galaxy...</td>
+      <td>97.0</td>
+      <td>91.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>7</td>
+      <td>7.0</td>
+      <td>Red Dead Redemption 2</td>
+      <td>Xbox One</td>
+      <td>2018-10-26</td>
+      <td>Developed by the creators of Grand Theft Auto ...</td>
+      <td>97.0</td>
+      <td>80.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>9655</th>
+      <td>17425</td>
+      <td>18790.0</td>
+      <td>Fighter Within</td>
+      <td>Xbox One</td>
+      <td>2013-11-19</td>
+      <td>Unleash your inner fighter to beat your friend...</td>
+      <td>23.0</td>
+      <td>28.0</td>
+    </tr>
+    <tr>
+      <th>9656</th>
+      <td>17427</td>
+      <td>18792.0</td>
+      <td>Homie Rollerz</td>
+      <td>DS</td>
+      <td>2008-03-05</td>
+      <td>Homie Rollerz is a fast-paced, mayhem-laden ka...</td>
+      <td>23.0</td>
+      <td>30.0</td>
+    </tr>
+    <tr>
+      <th>9657</th>
+      <td>17429</td>
+      <td>18794.0</td>
+      <td>Rambo: The Video Game</td>
+      <td>PlayStation 3</td>
+      <td>2014-04-29</td>
+      <td>RAMBO The Vidoegame puts players in Rambo’s co...</td>
+      <td>23.0</td>
+      <td>18.0</td>
+    </tr>
+    <tr>
+      <th>9658</th>
+      <td>17430</td>
+      <td>18795.0</td>
+      <td>Fast &amp; Furious: Showdown</td>
+      <td>Xbox 360</td>
+      <td>2013-05-21</td>
+      <td>Fast &amp; Furious: Showdown takes some of the fra...</td>
+      <td>22.0</td>
+      <td>13.0</td>
+    </tr>
+    <tr>
+      <th>9659</th>
+      <td>17432</td>
+      <td>18797.0</td>
+      <td>Afro Samurai 2: Revenge of Kuma Volume One</td>
+      <td>PlayStation 4</td>
+      <td>2015-09-22</td>
+      <td>Head out on a journey of redemption, driven by...</td>
+      <td>21.0</td>
+      <td>29.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>9660 rows × 8 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-dfe58f3e-6b1e-47e7-8da6-bd97fc16c6bf')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-dfe58f3e-6b1e-47e7-8da6-bd97fc16c6bf button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-dfe58f3e-6b1e-47e7-8da6-bd97fc16c6bf');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="4LQYQJj7bIm6">
+<p>Now that we have our datasets formatted properly, we can display some plots of the data, mainly of review scores over time.</p>
+</div>
+<div class="cell code" data-colab="{&quot;height&quot;:944,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="UFLgzbu-d2x9" data-outputId="e0f3506c-9b96-4ac9-98d5-75e068072e99">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>display(old_games.sort_values(by <span class="op">=</span> <span class="st">&quot;release_date&quot;</span>))</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>display(new_games.sort_values(by <span class="op">=</span> <span class="st">&quot;release_date&quot;</span>))</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-f4e848b7-d5fd-4e1b-b298-4a2e8563abf7">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>level_0</th>
+      <th>index</th>
+      <th>name</th>
+      <th>platform</th>
+      <th>release_date</th>
+      <th>summary</th>
+      <th>meta_score</th>
+      <th>user_review</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>132</th>
+      <td>350</td>
+      <td>350.0</td>
+      <td>Resident Evil</td>
+      <td>PlayStation</td>
+      <td>1996-03-30</td>
+      <td>Raccoon City has been completely overrun by mu...</td>
+      <td>91.0</td>
+      <td>91.0</td>
+    </tr>
+    <tr>
+      <th>207</th>
+      <td>608</td>
+      <td>608.0</td>
+      <td>Tekken 2</td>
+      <td>PlayStation</td>
+      <td>1996-08-25</td>
+      <td>More than a sequel. The undisputed #1 fighting...</td>
+      <td>89.0</td>
+      <td>83.0</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>113</td>
+      <td>113.0</td>
+      <td>Super Mario 64</td>
+      <td>Nintendo 64</td>
+      <td>1996-09-26</td>
+      <td>Mario is super in a whole new way! Combining t...</td>
+      <td>94.0</td>
+      <td>91.0</td>
+    </tr>
+    <tr>
+      <th>832</th>
+      <td>4357</td>
+      <td>4403.0</td>
+      <td>Pilotwings 64</td>
+      <td>Nintendo 64</td>
+      <td>1996-09-29</td>
+      <td>Forget about those other flying games. This is...</td>
+      <td>80.0</td>
+      <td>81.0</td>
+    </tr>
+    <tr>
+      <th>70</th>
+      <td>176</td>
+      <td>176.0</td>
+      <td>Wipeout XL</td>
+      <td>PlayStation</td>
+      <td>1996-09-30</td>
+      <td>The original scorched the game world and becam...</td>
+      <td>93.0</td>
+      <td>86.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>2757</th>
+      <td>15840</td>
+      <td>16968.0</td>
+      <td>Werewolf: The Apocalypse - Earthblood</td>
+      <td>PlayStation 2</td>
+      <td>2021-02-04</td>
+      <td>A unique experience full of savage combat and ...</td>
+      <td>54.0</td>
+      <td>38.0</td>
+    </tr>
+    <tr>
+      <th>2797</th>
+      <td>16029</td>
+      <td>17196.0</td>
+      <td>Taxi Chaos</td>
+      <td>PlayStation 2</td>
+      <td>2021-02-23</td>
+      <td>Taxi Chaos is a casual arcade racing game wher...</td>
+      <td>52.0</td>
+      <td>59.0</td>
+    </tr>
+    <tr>
+      <th>2744</th>
+      <td>15792</td>
+      <td>16912.0</td>
+      <td>Harvest Moon: One World</td>
+      <td>GameCube</td>
+      <td>2021-03-02</td>
+      <td>Take a trip around the world in the latest ent...</td>
+      <td>54.0</td>
+      <td>44.0</td>
+    </tr>
+    <tr>
+      <th>2911</th>
+      <td>16493</td>
+      <td>17743.0</td>
+      <td>Demon Skin</td>
+      <td>GameCube</td>
+      <td>2021-04-13</td>
+      <td>Brutal Hack&amp;Slash game with a challenging comb...</td>
+      <td>48.0</td>
+      <td>75.0</td>
+    </tr>
+    <tr>
+      <th>2799</th>
+      <td>16034</td>
+      <td>17201.0</td>
+      <td>Akiba's Trip: Hellbound &amp; Debriefed</td>
+      <td>Game Boy Advance</td>
+      <td>2021-07-20</td>
+      <td>AKIBA’S TRIP: Hellbound &amp; Debriefed is the pre...</td>
+      <td>52.0</td>
+      <td>54.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>3115 rows × 8 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-f4e848b7-d5fd-4e1b-b298-4a2e8563abf7')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-f4e848b7-d5fd-4e1b-b298-4a2e8563abf7 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-f4e848b7-d5fd-4e1b-b298-4a2e8563abf7');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+<div class="output display_data">
+
+  <div id="df-9ae937fa-4eeb-4cac-b435-78156b3f849f">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>level_0</th>
+      <th>index</th>
+      <th>name</th>
+      <th>platform</th>
+      <th>release_date</th>
+      <th>summary</th>
+      <th>meta_score</th>
+      <th>user_review</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>8569</th>
+      <td>15514</td>
+      <td>16590.0</td>
+      <td>Postal</td>
+      <td>Wii</td>
+      <td>1997-09-30</td>
+      <td>We'd like to express our sincere thanks and gr...</td>
+      <td>56.0</td>
+      <td>65.0</td>
+    </tr>
+    <tr>
+      <th>9374</th>
+      <td>16958</td>
+      <td>18290.0</td>
+      <td>Jeremy McGrath Supercross 2000</td>
+      <td>PlayStation 4</td>
+      <td>1999-09-29</td>
+      <td>Race as or against 11-time Supercross Champ Je...</td>
+      <td>43.0</td>
+      <td>80.0</td>
+    </tr>
+    <tr>
+      <th>9414</th>
+      <td>17023</td>
+      <td>18361.0</td>
+      <td>Rally Challenge 2000</td>
+      <td>Xbox 360</td>
+      <td>2000-06-30</td>
+      <td>RALLY CHALLENGE 2000 takes you on a scorching ...</td>
+      <td>41.0</td>
+      <td>60.0</td>
+    </tr>
+    <tr>
+      <th>8724</th>
+      <td>15791</td>
+      <td>16911.0</td>
+      <td>Fighter Destiny 2</td>
+      <td>PSP</td>
+      <td>2000-07-14</td>
+      <td>Enter the arena and do battle with the toughes...</td>
+      <td>54.0</td>
+      <td>65.0</td>
+    </tr>
+    <tr>
+      <th>8923</th>
+      <td>16148</td>
+      <td>17336.0</td>
+      <td>Sydney 2000</td>
+      <td>Switch</td>
+      <td>2000-08-25</td>
+      <td>Let the games begin, Mate! Get ready to compet...</td>
+      <td>51.0</td>
+      <td>49.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>4392</th>
+      <td>8037</td>
+      <td>8248.0</td>
+      <td>Far Cry 6</td>
+      <td>PlayStation 5</td>
+      <td>2021-10-07</td>
+      <td>Far Cry 6 reveals a Caribbean island simmering...</td>
+      <td>74.0</td>
+      <td>48.0</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>61</td>
+      <td>61.0</td>
+      <td>Tetris Effect: Connected</td>
+      <td>Switch</td>
+      <td>2021-10-08</td>
+      <td>Tetris Effect: Connected is the original Tetri...</td>
+      <td>95.0</td>
+      <td>85.0</td>
+    </tr>
+    <tr>
+      <th>239</th>
+      <td>569</td>
+      <td>569.0</td>
+      <td>Metroid Dread</td>
+      <td>Switch</td>
+      <td>2021-10-08</td>
+      <td>Join intergalactic bounty hunter Samus Aran in...</td>
+      <td>89.0</td>
+      <td>88.0</td>
+    </tr>
+    <tr>
+      <th>440</th>
+      <td>988</td>
+      <td>990.0</td>
+      <td>Disco Elysium: The Final Cut</td>
+      <td>Switch</td>
+      <td>2021-10-12</td>
+      <td>Disco Elysium - The Final Cut is the definitiv...</td>
+      <td>87.0</td>
+      <td>87.0</td>
+    </tr>
+    <tr>
+      <th>5248</th>
+      <td>9607</td>
+      <td>9908.0</td>
+      <td>Demon Slayer: Kimetsu no Yaiba - The Hinokami ...</td>
+      <td>PlayStation 5</td>
+      <td>2021-10-13</td>
+      <td>Players can relive the story of Tanjiro Kamado...</td>
+      <td>72.0</td>
+      <td>75.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>9660 rows × 8 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-9ae937fa-4eeb-4cac-b435-78156b3f849f')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-9ae937fa-4eeb-4cac-b435-78156b3f849f button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-9ae937fa-4eeb-4cac-b435-78156b3f849f');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="8-zzzcgGuvIv">
+<p>Oddly, the dataset of games for "old" consoles has points with release dates as late as 2021. This makes no sense, as the longest lasting old console (PlayStation 2) was discontinued in 2013. Similarly, the dataset of games for "new" consoles has points with release dates as early as 1997, even though the earliest new console (DS) was released in 2004. Most of these games also do not show up on the search engine on Metacritic's website, which further suggests that they are some kind of outlier.</p>
+</div>
+<div class="cell code" data-colab="{&quot;height&quot;:1000,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="cQc6uw-7gaSj" data-outputId="152ebcc7-3f34-4f3a-d1b4-baca1c262089">
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>old_games[<span class="st">&quot;release_year&quot;</span>] <span class="op">=</span> old_games[<span class="st">&quot;release_date&quot;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: (<span class="bu">int</span>)(x.year))</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>new_games[<span class="st">&quot;release_year&quot;</span>] <span class="op">=</span> new_games[<span class="st">&quot;release_date&quot;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: (<span class="bu">int</span>)(x.year))</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>display(old_games[old_games[<span class="st">&quot;release_year&quot;</span>] <span class="op">&gt;</span> <span class="dv">2013</span>])</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>display(new_games[new_games[<span class="st">&quot;release_year&quot;</span>] <span class="op">&lt;</span> <span class="dv">2004</span>])</span></code></pre></div>
+<div class="output display_data">
+
+  <div id="df-e49a639e-8c62-42b5-8a11-b32f18b1e23b">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>level_0</th>
+      <th>index</th>
+      <th>name</th>
+      <th>platform</th>
+      <th>release_date</th>
+      <th>summary</th>
+      <th>meta_score</th>
+      <th>user_review</th>
+      <th>release_year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2653</th>
+      <td>15365</td>
+      <td>16410.0</td>
+      <td>Surgeon Simulator: Anniversary Edition</td>
+      <td>Dreamcast</td>
+      <td>2014-08-12</td>
+      <td>Surgeon Simulator 2013 is a darkly humorous ov...</td>
+      <td>56.0</td>
+      <td>51.0</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <th>2660</th>
+      <td>15402</td>
+      <td>16456.0</td>
+      <td>Pokemon Shuffle</td>
+      <td>Game Boy Advance</td>
+      <td>2015-02-18</td>
+      <td>In Pokémon Shuffle, your goal is to clear a se...</td>
+      <td>56.0</td>
+      <td>61.0</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <th>2662</th>
+      <td>15404</td>
+      <td>16458.0</td>
+      <td>Perception</td>
+      <td>Game Boy Advance</td>
+      <td>2017-06-06</td>
+      <td>A first person narrative horror adventure that...</td>
+      <td>56.0</td>
+      <td>61.0</td>
+      <td>2017</td>
+    </tr>
+    <tr>
+      <th>2663</th>
+      <td>15416</td>
+      <td>16476.0</td>
+      <td>Deadly Premonition 2: A Blessing in Disguise</td>
+      <td>Xbox</td>
+      <td>2020-07-10</td>
+      <td>In the year 2005, FBI agent York visits Le Car...</td>
+      <td>56.0</td>
+      <td>54.0</td>
+      <td>2020</td>
+    </tr>
+    <tr>
+      <th>2667</th>
+      <td>15425</td>
+      <td>16487.0</td>
+      <td>Supreme League of Patriots</td>
+      <td>PlayStation 2</td>
+      <td>2015-01-29</td>
+      <td>Don your cape and mask and join the Supreme Le...</td>
+      <td>56.0</td>
+      <td>46.0</td>
+      <td>2015</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>3032</th>
+      <td>17002</td>
+      <td>18338.0</td>
+      <td>Tennis World Tour</td>
+      <td>PlayStation 2</td>
+      <td>2018-05-22</td>
+      <td>The new standard developed by veterans of tenn...</td>
+      <td>42.0</td>
+      <td>18.0</td>
+      <td>2018</td>
+    </tr>
+    <tr>
+      <th>3033</th>
+      <td>17007</td>
+      <td>18345.0</td>
+      <td>Rugby 18</td>
+      <td>PlayStation</td>
+      <td>2017-10-24</td>
+      <td>Experience the full intensity of the biggest m...</td>
+      <td>41.0</td>
+      <td>38.0</td>
+      <td>2017</td>
+    </tr>
+    <tr>
+      <th>3039</th>
+      <td>17048</td>
+      <td>18389.0</td>
+      <td>Dollhouse</td>
+      <td>PlayStation 2</td>
+      <td>2019-05-24</td>
+      <td>This haunting horror game draws you into the m...</td>
+      <td>41.0</td>
+      <td>44.0</td>
+      <td>2019</td>
+    </tr>
+    <tr>
+      <th>3046</th>
+      <td>17086</td>
+      <td>18434.0</td>
+      <td>Tamarin</td>
+      <td>PlayStation</td>
+      <td>2020-09-10</td>
+      <td>SAVE YOUR FAMILY FROM THE INSECT INVASION Expl...</td>
+      <td>40.0</td>
+      <td>68.0</td>
+      <td>2020</td>
+    </tr>
+    <tr>
+      <th>3051</th>
+      <td>17131</td>
+      <td>18481.0</td>
+      <td>The Deer God</td>
+      <td>PlayStation 2</td>
+      <td>2017-12-21</td>
+      <td>The Deer God is a breathtaking 3D pixel art ad...</td>
+      <td>39.0</td>
+      <td>27.0</td>
+      <td>2017</td>
+    </tr>
+  </tbody>
+</table>
+<p>95 rows × 9 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-e49a639e-8c62-42b5-8a11-b32f18b1e23b')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-e49a639e-8c62-42b5-8a11-b32f18b1e23b button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-e49a639e-8c62-42b5-8a11-b32f18b1e23b');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+<div class="output display_data">
+
+  <div id="df-e8e2f2c9-f24a-497a-92b9-0237f1818911">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>level_0</th>
+      <th>index</th>
+      <th>name</th>
+      <th>platform</th>
+      <th>release_date</th>
+      <th>summary</th>
+      <th>meta_score</th>
+      <th>user_review</th>
+      <th>release_year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>8521</th>
+      <td>15439</td>
+      <td>16505.0</td>
+      <td>Reign of Fire</td>
+      <td>Xbox 360</td>
+      <td>2002-10-22</td>
+      <td>Fight for mankind as one of the many different...</td>
+      <td>56.0</td>
+      <td>75.0</td>
+      <td>2002</td>
+    </tr>
+    <tr>
+      <th>8536</th>
+      <td>15463</td>
+      <td>16529.0</td>
+      <td>Spyro: Enter the Dragonfly</td>
+      <td>3DS</td>
+      <td>2002-11-03</td>
+      <td>Gnasty Gnorc and Ripto are back with a plan to...</td>
+      <td>56.0</td>
+      <td>44.0</td>
+      <td>2002</td>
+    </tr>
+    <tr>
+      <th>8543</th>
+      <td>15474</td>
+      <td>16542.0</td>
+      <td>Harry Potter and the Sorcerer's Stone</td>
+      <td>DS</td>
+      <td>2003-12-09</td>
+      <td>The next generation versions of Sorcerer's Sto...</td>
+      <td>56.0</td>
+      <td>66.0</td>
+      <td>2003</td>
+    </tr>
+    <tr>
+      <th>8544</th>
+      <td>15475</td>
+      <td>16543.0</td>
+      <td>Contract J.A.C.K.</td>
+      <td>Wii</td>
+      <td>2003-11-11</td>
+      <td>Trained to survive. Paid to kill. Explore the ...</td>
+      <td>56.0</td>
+      <td>60.0</td>
+      <td>2003</td>
+    </tr>
+    <tr>
+      <th>8568</th>
+      <td>15513</td>
+      <td>16589.0</td>
+      <td>Cool Boarders 2001</td>
+      <td>Wii</td>
+      <td>2000-10-31</td>
+      <td>Rip it up with 10 World Class professional sno...</td>
+      <td>56.0</td>
+      <td>33.0</td>
+      <td>2000</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>9446</th>
+      <td>17074</td>
+      <td>18418.0</td>
+      <td>Freedom: First Resistance</td>
+      <td>Switch</td>
+      <td>2000-12-14</td>
+      <td>Earth has been invaded by aliens that have for...</td>
+      <td>40.0</td>
+      <td>32.0</td>
+      <td>2000</td>
+    </tr>
+    <tr>
+      <th>9464</th>
+      <td>17100</td>
+      <td>18448.0</td>
+      <td>Ultimate Beach Soccer</td>
+      <td>Xbox 360</td>
+      <td>2003-11-10</td>
+      <td>With flashy moves, laser shows, and DJs, Ultim...</td>
+      <td>39.0</td>
+      <td>68.0</td>
+      <td>2003</td>
+    </tr>
+    <tr>
+      <th>9467</th>
+      <td>17104</td>
+      <td>18452.0</td>
+      <td>Air Raid: This Is Not a Drill!</td>
+      <td>Wii</td>
+      <td>2003-06-18</td>
+      <td>Air Raid immerses you in a mind blowing, reali...</td>
+      <td>39.0</td>
+      <td>66.0</td>
+      <td>2003</td>
+    </tr>
+    <tr>
+      <th>9485</th>
+      <td>17133</td>
+      <td>18483.0</td>
+      <td>Universal Studios Theme Parks Adventure</td>
+      <td>PlayStation 3</td>
+      <td>2001-12-18</td>
+      <td>Lights... Camera... PLAY! You're not just a vi...</td>
+      <td>39.0</td>
+      <td>32.0</td>
+      <td>2001</td>
+    </tr>
+    <tr>
+      <th>9490</th>
+      <td>17140</td>
+      <td>18491.0</td>
+      <td>Star Wars: Flight of the Falcon</td>
+      <td>Switch</td>
+      <td>2003-11-18</td>
+      <td>In Star Wars: Flight of the Falcon, you get th...</td>
+      <td>39.0</td>
+      <td>59.0</td>
+      <td>2003</td>
+    </tr>
+  </tbody>
+</table>
+<p>127 rows × 9 columns</p>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-e8e2f2c9-f24a-497a-92b9-0237f1818911')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-e8e2f2c9-f24a-497a-92b9-0237f1818911 button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-e8e2f2c9-f24a-497a-92b9-0237f1818911');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="cell markdown" id="QKh1qKKHgviD">
+<p>These rows do not make up a large part of the dataset. For the games for old consoles, they make up 95 out of 3115 rows, and for the games for new consoles, they make up 127 out of 9660 rows. To keep the data focused on relevant points, we will remove these rows.</p>
+</div>
+<div class="cell code" id="YnYZAVoqgOpX">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>old_games <span class="op">=</span> old_games[old_games[<span class="st">&quot;release_year&quot;</span>] <span class="op">&lt;=</span> <span class="dv">2009</span>]</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>new_games <span class="op">=</span> new_games[new_games[<span class="st">&quot;release_year&quot;</span>] <span class="op">&gt;=</span> <span class="dv">2004</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-colab="{&quot;height&quot;:1000,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="xa-5k_Eodrtl" data-outputId="94787f65-7780-4e5f-f732-2cbe82c4e363">
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#plt.scatter(old_games[&quot;release_date&quot;], old_games[&quot;user_review&quot;], color = &quot;blue&quot;, s = 3)</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co">#plt.scatter(old_games[&quot;release_date&quot;], old_games[&quot;meta_score&quot;], color = &quot;red&quot;, s = 3)</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>sns.lmplot(x <span class="op">=</span> <span class="st">&quot;release_year&quot;</span>, y <span class="op">=</span> <span class="st">&quot;meta_score&quot;</span>, data <span class="op">=</span> old_games, ci <span class="op">=</span> <span class="va">None</span>, fit_reg <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Release date&quot;</span>)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Score&quot;</span>)</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Metacritic review scores over time for consoles released before 2003&quot;</span>)</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="co">#plt.scatter(new_games[&quot;release_date&quot;], new_games[&quot;user_review&quot;], color = &quot;blue&quot;, s = 3)</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a><span class="co">#plt.scatter(new_games[&quot;release_date&quot;], new_games[&quot;meta_score&quot;], color = &quot;red&quot;, s = 3)</span></span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>sns.lmplot(x <span class="op">=</span> <span class="st">&quot;release_year&quot;</span>, y <span class="op">=</span> <span class="st">&quot;meta_score&quot;</span>, data <span class="op">=</span> new_games, ci <span class="op">=</span> <span class="va">None</span>, fit_reg <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Release date&quot;</span>)</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Score&quot;</span>)</span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Metacritic review scores over time for consoles released after 2004&quot;</span>)</span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>sns.violinplot(x <span class="op">=</span> <span class="st">&quot;release_year&quot;</span>, y <span class="op">=</span> <span class="st">&quot;meta_score&quot;</span>, data <span class="op">=</span> old_games)</span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Review scores over time for games on consoles released before 2003&quot;</span>)</span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a><span class="co">#TODO: Format the release_date column to datetime object (Justin) (DONE)</span></span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a><span class="co">#TODO: Plot linear regression model for meta score over time (Josh) (DONE)</span></span>
+<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a><span class="co">#TODO: Include interactions between certain attributes and find their p-values (Does another attribute significantly effect review score?) (Justin)</span></span>
+<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a><span class="co">#TODO: Boxplot/violinplot of review scores per platform (Josh)</span></span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_a5c39b65ab0640b882320a007c5b5002/1886eeb8621a3d8267d9b354a20aca76e32bb1a2.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_a5c39b65ab0640b882320a007c5b5002/3b6de8e23b8bb34288fe80c2a61afaa31b8fd198.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_a5c39b65ab0640b882320a007c5b5002/8d87065e9d675c0c86b86698a562e83745fe30a3.png" /></p>
+</div>
+</div>
 </body>
 </html>
